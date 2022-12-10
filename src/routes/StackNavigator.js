@@ -5,6 +5,7 @@ import HomeScreen from '../pages/HomeScreen';
 import FitScreen from '../pages/FitScreen';
 import RestScreen from '../pages/RestScreen';
 import WorkoutScreen from '../pages/WorkoutScreen';
+import SplashScreen from '../pages/SplashScreen';
 
 
 const StackNavigator = () => {
@@ -13,6 +14,7 @@ const StackNavigator = () => {
     return (
         <NavigationContainer>
           <Stack.Navigator>
+            <Stack.Screen name="Splash" component={SplashScreen} options={{ headerTransparent: true, headerShown: false, title: "" }}/>
             <Stack.Screen name="Home" component={HomeScreen} options={{ headerTransparent: true, headerShown: false, title: "" }}/>
             <Stack.Screen name="Workout" component={WorkoutScreen} options={{ headerTransparent: true, headerShown: false, title: "" }}/>
             <Stack.Screen name="FitScreen" component={FitScreen} options={{ headerTransparent: true, headerShown: false, title: "" }}/>

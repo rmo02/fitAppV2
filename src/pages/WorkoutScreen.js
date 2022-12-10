@@ -71,7 +71,7 @@ const WorkoutScreen = ({ route }) => {
       icon="play"
       color="white"
       style={{
-      backgroundColor: "#4263EB",
+      backgroundColor: "#84458C",
       borderRadius: 50,
       position: 'absolute',
       margin: 16,

@@ -71,7 +71,7 @@ const FitScreen = ({ route }) => {
             <Text
               style={{
                 textAlign: "center",
-                color: "white",
+                color: "#F29A2E",
                 fontSize: 20,
                 fontWeight: "bold",
               }}
@@ -92,7 +92,7 @@ const FitScreen = ({ route }) => {
               }, 2000);
             }}
             style={{
-              backgroundColor: "blue",
+              backgroundColor: "#0D66D0",
               marginLeft: "auto",
               marginRight: "auto",
               marginTop: 30,
@@ -104,12 +104,12 @@ const FitScreen = ({ route }) => {
             <Text
               style={{
                 textAlign: "center",
-                color: "white",
+                color: "#F2F2F2",
                 fontSize: 20,
                 fontWeight: "bold",
               }}
             >
-              Done
+              Concluido
             </Text>
           </TouchableOpacity>
         )}
@@ -137,7 +137,7 @@ const FitScreen = ({ route }) => {
             }}
             style={{
               width: 100,
-              backgroundColor: "green",
+              backgroundColor: "#6A4C73",
               padding: 10,
               borderRadius: 20,
               marginHorizontal: 20,
@@ -145,7 +145,7 @@ const FitScreen = ({ route }) => {
           >
             <Text
               style={{
-                color: "white",
+                color: "#F2F2F2",
                 fontWeight: "bold",
                 textAlign: "center",
               }}
@@ -161,7 +161,7 @@ const FitScreen = ({ route }) => {
             }}
               style={{
                 width: 100,
-                backgroundColor: "green",
+                backgroundColor: "#6A4C73",
                 padding: 10,
                 borderRadius: 20,
                 marginHorizontal: 20,
@@ -169,7 +169,7 @@ const FitScreen = ({ route }) => {
             >
               <Text
                 style={{
-                  color: "white",
+                  color: "#F2F2F2",
                   fontWeight: "bold",
                   textAlign: "center",
                 }}
@@ -188,7 +188,7 @@ const FitScreen = ({ route }) => {
               }}
               style={{
                 width: 100,
-                backgroundColor: "green",
+                backgroundColor: "#6A4C73",
                 padding: 10,
                 borderRadius: 20,
                 marginHorizontal: 20,
@@ -196,7 +196,7 @@ const FitScreen = ({ route }) => {
             >
               <Text
                 style={{
-                  color: "white",
+                  color: "#F2F2F2",
                   fontWeight: "bold",
                   textAlign: "center",
                 }}

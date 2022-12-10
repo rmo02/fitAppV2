@@ -6,8 +6,9 @@ import {
   FlatList,
   Pressable,
   TouchableOpacity,
+  BackHandler,
 } from "react-native";
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import fitness from "../data/fitness";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
@@ -22,11 +23,17 @@ const HomeScreen = () => {
     workout
   } = useContext(FitnessItems);
 
+  useEffect(() => {
+    BackHandler.addEventListener('hardwareBackPress', () =>{
+      return true
+    })
+  }, [])
+
   return (
     <View style={{ flex: 1 }}>
       <View
         style={{
-          backgroundColor: "#CD853F",
+          backgroundColor: "#684F9F",
           padding: 18,
           height: 200,
           width: "100%",
@@ -35,7 +42,7 @@ const HomeScreen = () => {
         {/* Home text*/}
         <View style={{ marginTop: 20 }}>
           <Text style={{ color: "white", fontWeight: "bold", fontSize: 18 }}>
-            HomeScreen
+            Olá, Ramon 
           </Text>
         </View>
 
@@ -112,7 +119,7 @@ const HomeScreen = () => {
           />
         </View>
       </View>
-      <View style={{ marginTop: 80, height: 550 }}>
+      <View style={{ marginTop: 80, height: 550, backgroundColor:'#F2F2F2' }}>
         <FlatList
           showsVerticalScrollIndicator={false}
           data={FitnessData}
