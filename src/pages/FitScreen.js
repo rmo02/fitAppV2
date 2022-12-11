@@ -71,7 +71,7 @@ const FitScreen = ({ route }) => {
             <Text
               style={{
                 textAlign: "center",
-                color: "#F29A2E",
+                color: "#F2F2F2",
                 fontSize: 20,
                 fontWeight: "bold",
               }}
@@ -86,7 +86,7 @@ const FitScreen = ({ route }) => {
               setCompleted([...completed, current.name]);
               setWorkout(workout + 1);
               setMinutes(minutes + 2.5);
-              setCalories(calories + 6.3);
+              setCalories(calories + 6);
               setTimeout(() => {
                 setIndex(index + 1);
               }, 2000);
