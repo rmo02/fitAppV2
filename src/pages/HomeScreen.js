@@ -1,16 +1,14 @@
 import {
   View,
   Text,
-  SafeAreaView,
   Image,
   FlatList,
-  Pressable,
   TouchableOpacity,
   BackHandler,
 } from "react-native";
 import React, { useContext, useEffect } from "react";
 import fitness from "../data/fitness";
-import { MaterialCommunityIcons } from "@expo/vector-icons";
+// import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 import { FitnessItems } from "../context/FitnessContext";
 
@@ -149,7 +147,7 @@ const HomeScreen = () => {
                 >
                   {item.name}
                 </Text>
-                <MaterialCommunityIcons
+                {/* <MaterialCommunityIcons
                   style={{
                     position: "absolute",
                     color: "white",
@@ -159,7 +157,7 @@ const HomeScreen = () => {
                   name="lightning-bolt"
                   size={24}
                   color="black"
-                />
+                /> */}
               </TouchableOpacity>
             </View>
           )}

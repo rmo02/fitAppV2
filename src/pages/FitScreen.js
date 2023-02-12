@@ -1,10 +1,10 @@
-import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { Image, Text, TouchableOpacity, View } from "react-native";
 import React, { useContext, useState } from "react";
 import { useNavigation } from "@react-navigation/native";
 import { FitnessItems } from "../context/FitnessContext";
 
 const FitScreen = ({ route }) => {
-  console.log(route.params);
+
   const navigation = useNavigation();
   const [index, setIndex] = useState(0);
   const excersise = route.params.excersises;

@@ -1,8 +1,6 @@
 import {
   Image,
-  Pressable,
   ScrollView,
-  StyleSheet,
   Text,
   TouchableOpacity,
   View,

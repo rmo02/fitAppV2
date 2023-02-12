@@ -28,7 +28,7 @@ function RestScreen() {
       <View style={{ flex:1, backgroundColor: "#4D62AB" }}>
         <View style={{ height: 420 }}>
           <AnimatedLottieView
-            source={require("../../assets/timer.json")}
+            source={require("../assets/timer.json")}
             autoPlay
           />
         </View>
